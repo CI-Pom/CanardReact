@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: rgb(160, 160, 160);
+}
+
+h1{
+    text-align: center;
+    font-size: 4.5em;
+}
+
+img{
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+}
+
+.liste{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    padding: 0 1em;
+    margin: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(167, 0, 209);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 1.5em;
+    border-radius: 20px;
+}
+
+.adopt{
+    background-color: rgb(44, 121, 2);
+}
+
+.abandon{
+    background-color: rgb(175, 0, 0);
+}
